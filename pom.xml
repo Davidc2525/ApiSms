@@ -95,6 +95,17 @@
 	<build>
 		<plugins>
 
+            <plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>exec-maven-plugin</artifactId>
+				<version>1.6.0</version>
+				<configuration>
+					<mainClass>orchi.api.sms.Start</mainClass>
+					<arguments>
+						<argument></argument>
+					</arguments>
+				</configuration>
+			</plugin>
 
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
